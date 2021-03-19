@@ -32,7 +32,7 @@
 
 @endforeach
 <div class="mt-2">
-    <a href=" {{route('experience.create')}} ">+ Add Experience</a>
+    <a class=" btn btn-primary" href=" {{route('experience.create')}} " role="button">+ Add Experience</a>
 </div>
 
 <div class="text-right">

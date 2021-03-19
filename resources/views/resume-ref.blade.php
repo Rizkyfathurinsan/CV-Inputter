@@ -39,7 +39,7 @@
 
             <p>Email: {{$e->email}}</p>
             <p>Phone: {{$e->phone}}</p>
-            <p>Address: {{$e->phone}}</p>
+            <p>Address: {{$e->address}}</p>
 
 
 

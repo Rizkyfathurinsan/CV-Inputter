@@ -28,12 +28,12 @@
 @endforeach
 
 <div class="mt-2">
-    <a href=" {{route('skill.create')}} ">+ Add skill</a>
+    <a class=" btn btn-primary" href=" {{route('skill.create')}} " role="button">+ Add skill</a>
 </div>
 
 
 <div class="text-right">
-    <a class=" btn btn-primary" href=" {{route('resume.index')}} " role="button"> View CV </a>
+    <a target="_blank" class=" btn btn-primary" href=" {{route('resume.index')}} " role="button"> View CV </a>
 </div>
 
 

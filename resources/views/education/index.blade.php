@@ -35,7 +35,7 @@
 @endforeach
 
 </div>
-<a  href=" {{route('education.create')}} " role="button">+ Add another Education</a>
+<a class=" btn btn-primary" href=" {{route('education.create')}} " role="button">+ Add another Education</a>
 
 <div class="row mt-3">
     <div class="col text-right">
