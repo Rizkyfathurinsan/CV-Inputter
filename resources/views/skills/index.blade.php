@@ -33,7 +33,7 @@
 
 
 <div class="text-right">
-    <a class=" btn btn-primary" href=" {{route('skill.index')}} " role="button"> View CV </a>
+    <a class=" btn btn-primary" href=" {{route('resume.index')}} " role="button"> View CV </a>
 </div>
 
 

@@ -36,7 +36,7 @@
 </div>
 
 <div class="text-right">
-    <a class=" btn btn-primary" href=" {{route('skill.index')}} " role="button">Next</a>
+    <a class=" btn btn-primary" href=" {{route('skill.index')}} " role="button">Add Skills</a>
 </div>
 
 

@@ -35,7 +35,11 @@
 <div class="text-right mt-3">
     <a class="btn btn-primary " href=" {{route('education.index')}} " role="button">Add Education</a>
 </div>
+@else
+        <a name="" id="" class="btn btn-primary" href=" {{route('user-detail.create')}} " role="button">Build your CV Now</a>
+        @Break
 
+@endif
 @endforeach
 
 @endsection
