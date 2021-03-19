@@ -24,8 +24,6 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $details = UserDetail::latest()->get();
-
-        return view('home', compact('details'));
+        return view('home');
     }
 }

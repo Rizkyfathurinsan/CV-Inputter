@@ -32,6 +32,6 @@ class ResumeController extends Controller
         $skill = Skill::latest()->get();
 
         $pdf = \PDF::loadView('resume-ref', compact('details', 'education', 'experience', 'skill'));
-        return $pdf->download('resume.pdf');
+        return $pdf->download('CV.pdf');
     }
 }

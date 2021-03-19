@@ -17,8 +17,6 @@ class EducationController extends Controller
         $education = Education::latest()->get();
 
         return view('education.index', compact('education'));
-        return view('resume-ref', compact('education'));
-
     }
 
     /**

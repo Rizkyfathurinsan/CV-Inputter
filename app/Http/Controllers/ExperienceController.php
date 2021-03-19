@@ -17,8 +17,6 @@ class ExperienceController extends Controller
         $experience = Experience::latest()->get();
 
         return view('experience.index', compact('experience'));
-        return view('resume-ref', compact('experience'));
-
     }
 
     /**
